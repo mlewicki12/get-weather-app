@@ -27,9 +27,9 @@ class MainActivity : AppCompatActivity() {
         val overmorrowTemp = findViewById<TextView>(R.id.overmorrowTemp);
 
         val queue = Volley.newRequestQueue(this);
-        val url = "https://api.weatherbit.io/v2.0/current?key=74dac3275fd54d88b99c74ca3ee9c39c&postal_code=04-761&country=PL";
-        val urltmrw = "https://api.weatherbit.io/v2.0/forecast/hourly?key=74dac3275fd54d88b99c74ca3ee9c39c&postal_code=04-761&country=PL&hours=24";
-        val urlomrw = "https://api.weatherbit.io/v2.0/forecast/hourly?key=74dac3275fd54d88b99c74ca3ee9c39c&postal_code=04-761&country=PL";
+        val url = "https://api.weatherbit.io/v2.0/current?key=********************************&postal_code=04-761&country=PL";
+        val urltmrw = "https://api.weatherbit.io/v2.0/forecast/hourly?key=********************************&postal_code=04-761&country=PL&hours=24";
+        val urlomrw = "https://api.weatherbit.io/v2.0/forecast/hourly?key=********************************&postal_code=04-761&country=PL";
 
         val sdf_to = SimpleDateFormat("EEEE");
         val sdf_from = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
